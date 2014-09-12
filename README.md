@@ -50,7 +50,7 @@ We consider the body of the function g to be well typed and we give the followin
 For this part of the Lab we were asked to implement some basic operations: Absolute Value and XOR.
   
 ######(A): Absolute Value
-To implement _**def** abs _ we simply forced the returned value to be positive.
+To implement _**def** abs_ we simply forced the returned value to be positive.
 
 ######(B): XOR
 We created two cases using the ***match*** function. Since XOR accept ***boolean*** and return ***boolean***, we coded our algorithm with respect to the
