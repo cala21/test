@@ -83,8 +83,8 @@ We used Newton's Method to implement the *square root*. We wrote several functio
  3. _**def** sqrtErr(c: **Double**, x0: **Double**, n: **Int**): **Double**_
  
 	 This was the function that defined the maximum error allowed when calculating the square root of a number. We required a positive ***epsilon*** (maximum error allowed) and then we defined two cases that follows from the following question: is the error less then epsilon? 
-	 - yes, return the approximated result;
-	 - no, recursively call ***sqrtErr()***.
+	 - yes, return the approximated result
+	 - no, recursively call ***sqrtErr()***
 	 
 ## Question 5
 
@@ -109,6 +109,16 @@ We implemented ***delete()*** considering the different positions of  ***n*** in
 if the value was not found in the current ***Node*** we recursively called ***delete()*** with the new ***SearchTree*** argument (depending on the cases).
 
 ## Question 6
+
+The propose of this section was implementing a basic language interpreter performing basic operation with unary and binary operators. We were able to implement the function _**def eval(e: **Expr**): **Double**_ using ***match()*** and the *case object*.
+For  *case class* **Binary**:
+-***Plus***
+-***Minus***
+-***Times***
+-***Div***
+
+ For *case class* **Unary**: 
+-***Neg***
 
 
 
