@@ -8,7 +8,7 @@ In this Lab we are implementing some functions and an easy script to become fami
 ## Question 1 
 
 ######(A)
-Given the code we identify pi in line 4 to be bound at line 3 (*val pi = 3.14159*). This happens to be because we are considering the value pi previously defined in the same scope (line 2 to 5).
+Given the code we identify $pi$ in line 4 to be bound at line 3 (*val pi = 3.14159*). This happens to be because we are considering the value pi previously defined in the same scope (line 2 to 5).
 
 Given the code we identify pi in line 7 to be bound at line 1 (*val pi = 3.14*). This happens to be because we are considering the value pi outside the function circumference. It follows that its declaration is bound to line 1.
 
@@ -32,16 +32,16 @@ We consider the body of the function g to be well typed and we give the followin
   - x: **Int**
   - 3 : **Int**
   
-*Line 3 =>* (b,1) : **Tuple** (**Tuple** (**Int**,**Int**) , **Int**) because
+*Line 3 =>* (b,1) : **Tuple** (**Tuple** (**Int**,**Int**), **Int**) because
  - b : **Tuple** (**Int**,**Int**)  because
-  - x :**Int**
+  - x : **Int**
   - 3 : **Int**
  - 1 : **Int**
 
-*Line 3 =>* (b, a+2) : **Tuple** (**Tuple** (**Int**,**Int**) , **Int**) because
+*Line 3 =>* (b, a+2) : **Tuple** (**Tuple** (**Int**,**Int**), **Int**) because
  - b : **Tuple** (**Int**,**Int**) because
   - x : **Int**
   - 3 : **Int**
  - a + 2 : **Int** because
-  - a :**Int**
-  - 2 :**Int**
+  - a : **Int**
+  - 2 : **Int**
