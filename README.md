@@ -71,3 +71,10 @@ The main idea of this section was to become familiar with recursive calls in *SC
 This function was easily implemented considering two cases:
  1. if *n = 0* (we do not repeat the string) 
  2. if *n != 0* we recursively call the function ***repeat*** *n-1* times
+
+######(B): Newton's Method
+We use Newton's Method to implement the *square root*. We coded several function:
+ 1. _**def** sqrtStep(c: **Double**, xn: **Double**): **Double**
+  This function was implemented using the basic algorithm through which we derive the approximation, given a base case ***xn**
+ 2. _**def** sqrtN(c: **Double**, x0: **Double**, n: **Int**): **Double**
+ 3. _**def** sqrtErr(c: **Double**, x0: **Double**, n: **Int**): **Double**
