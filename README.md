@@ -91,19 +91,19 @@ We used Newton's Method to implement the *square root*. We wrote several functio
 This section was based on the implementation of the data structure ***tree***. In order to realize a good data structure we had to wrote multiple functions.
 ######(A) _**def** repOk(t: **SearchTree**): **Boolean**_
  
- 	We checked if the ***tree*** was valid, meaning we made sure to return ***true*** if the left child and the right child of each node were respectively less and bigger then their root value. Moreover, we consider the special case of an empty ***tree*** to be ***true***.
+We checked if the ***tree*** was valid, meaning we made sure to return ***true*** if the left child and the right child of each node were respectively less and bigger then their root value. Moreover, we consider the special case of an empty ***tree*** to be ***true***.
 ######(B) _**def** insert(t: **SearchTree**, n: **Int**): **SearchTree**_
  
- 	In order to insert the value ***n*** in the ***tree*** we traversed the ***tree*** (recursive calls of ***insert()***) to see where the value could fit. If we find the right place to insert it we place it with respect the idea expressed in part **(a)**.
+In order to insert the value ***n*** in the ***tree*** we traversed the ***tree*** (recursive calls of ***insert()***) to see where the value could fit. If we find the right place to insert it we place it with respect the idea expressed in part **(a)**.
 ######(C) _**def** deleteMin(t: **SearchTree**): (**SearchTree**, **Int**)_
  
- 	From the idea expressed in part **(a)** we delete the root value if no left child is present, otherwise we recursively call ***deleteMin*** with the left subtree as the argument of the function. Finally, we return the new ***Node*** and the value deleted.
+From the idea expressed in part **(a)** we delete the root value if no left child is present, otherwise we recursively call ***deleteMin*** with the left subtree as the argument of the function. Finally, we return the new ***Node*** and the value deleted.
 ######(D) _**def** delete(t: **SearchTree**, n: **Int**): **SearchTree**_
  
- 	We implemented ***delete()*** considering the different positions of  ***n*** in the ***tree***. Does ***n*** have any children?:
-	- only left child
-	- only right child
-	- both children
-	- none
+We implemented ***delete()*** considering the different positions of  ***n*** in the ***tree***. Does ***n*** have any children?:
+- only left child
+- only right child
+- both children
+- none
 	
-	if the value is not found in the current ***Node*** we recursively called ***delete()*** with the new ***SearchTree*** argument (depending on the cases).
+if the value is not found in the current ***Node*** we recursively called ***delete()*** with the new ***SearchTree*** argument (depending on the cases).
