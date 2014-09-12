@@ -97,13 +97,13 @@ We checked if the ***tree*** was valid, meaning we made sure to return ***true**
 In order to insert the value ***n*** in ***t*** we traversed the ***tree*** (recursive calls of ***insert()***) to see where the value could fit. If we found the right place to insert it we placed it with respect to the idea expressed in part **(a)**.
 ######(C) _**def** deleteMin(t: **SearchTree**): (**SearchTree**, **Int**)_
  
-From the idea expressed in part **(a)** we deleted the root value if no left child was present, otherwise we recursively called ***deleteMin*** with the left subtree as the argument of the function. Finally, we returned the new ***Node*** and the value deleted.
+From the idea expressed in part **(a)** we deleted the root value if no left child was present, otherwise we recursively called ***deleteMin()*** with the left subtree as the argument of the function. Finally, we returned the new ***Node*** and the value deleted.
 ######(D) _**def** delete(t: **SearchTree**, n: **Int**): **SearchTree**_
  
 We implemented ***delete()*** considering the different positions of  ***n*** in the ***tree***. Does ***n*** have any children?:
-- only left child
-- only right child
-- both children
-- none
+ - only left child
+ - only right child
+ - both children
+ - none
 	
 if the value was not found in the current ***Node*** we recursively called ***delete()*** with the new ***SearchTree*** argument (depending on the cases).
