@@ -8,19 +8,19 @@ In this Lab we are implementing some functions and an easy script to become fami
 ## Question 1 
 
 ######(A)
-Given the code we identify ***Pi*** in line 4 to be bound at line 3 (*val pi = 3.14159*). This happens to be because we are considering the value pi previously defined in the same scope (line 2 to 5).
+Given the code we identify ***Pi*** in line 4 to be bound at line 3 (_**val** pi = 3.14159_). This happens to be because we are considering the value ***Pi*** previously defined in the same scope (line 2 to 5).
 
-Given the code we identify pi in line 7 to be bound at line 1 (*val pi = 3.14*). This happens to be because we are considering the value pi outside the function circumference. It follows that its declaration is bound to line 1.
+Given the code we identify ***Pi*** in line 7 to be bound at line 1 (_**val** pi = 3.14_). This happens to be because we are considering the value ***Pi*** outside the function circumference. It follows that its declaration is bound to line 1.
 
 
 ######(B)
-Given the code we identify x in line 3 to be bound at line 2 (_**f**(x: Int)_). This happens to be because x at line 3 is allocated in the scope of the function f.
+Given the code we identify ***x*** in line 3 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 3 is allocated in the scope of the function f.
 
-Given the code we identify x in line 6 to be bound at line 2 (_**f**(x: Int)_). as well. This happens to be because x at line 6 is allocated in the scope of the function f. 
+Given the code we identify ***x*** in line 6 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 6 is allocated in the scope of the function ***f()***. 
 
-Given the code we identify x in line 10 to be bound at line 2 (_**f**(x: Int)_). as well. This happens to be because x at line 10 is in the scope of the function f and it is outside the scope that goes from line 7 to line 10.
+Given the code we identify ***x*** in line 10 to be bound at line 2 (_**f**(x: Int)_) as well. This happens to be because ***x*** at line 10 is in the scope of the function f and it is outside the scope that goes from line 7 to line 10.
 
-Given the code we identify x in line 13t o be bound at line 1 (*val x=3*). This happens to be because x at line 13 (for both x and f(x)) is allocated outside the function f. 
+Given the code we identify ***x*** in line 13t o be bound at line 1 (_**val** x=3_). This happens to be because ***x*** at line 13 (for both ***x*** and ***f(x)***) is allocated outside the function ***f()***. 
 
 ## Question 2
 
@@ -107,3 +107,9 @@ We implemented ***delete()*** considering the different positions of  ***n*** in
   - none
 	
 if the value was not found in the current ***Node*** we recursively called ***delete()*** with the new ***SearchTree*** argument (depending on the cases).
+
+## Question 6
+
+
+
+
