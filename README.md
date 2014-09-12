@@ -69,5 +69,5 @@ The main idea of this section was to become familiar with recursive calls in *SC
 
 ######(A): _**def** repeat(s :**String**, n :**Int**)_
 This function was easily implemented considering two cases:
-1. if *n = 0* (we do not repeat the string) 
-2. if *n != 0* we recursively call the function ***repeat*** *n-1* times
+ 1. if *n = 0* (we do not repeat the string) 
+ 2. if *n != 0* we recursively call the function ***repeat*** *n-1* times
