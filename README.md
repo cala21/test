@@ -118,7 +118,7 @@ For  *case class* **Binary**:
 - ***Times***
 - ***Div***
 
- For *case class* **Unary**: 
+For *case class* **Unary**: 
 - ***Neg***
 
 
