@@ -1,6 +1,6 @@
-test
+ Lab 1
 ====
-# Lab 1
+
 ### Group's partners: Camilla Lambrocco, Bruno Guovela
 
 In this Lab we are implementing some functions and an easy script to become familiar with the functional language SCALA
@@ -45,3 +45,20 @@ We consider the body of the function g to be well typed and we give the followin
  - a + 2 : **Int** because
   - a : **Int**
   - 2 : **Int**
+  
+## Question 3
+For this part of the Lab we were asked to implement some basic operations: Absolute Value and XOR.
+  
+  ######(A): Absolute Value
+  We created two cases using the ***match*** function
+  
+  ######(B): XOR
+  We created two cases using the ***match*** function. Since XOR accept ***boolean*** and return ***boolean***, we coded our algorithm with respect to the
+  following logic:
+  
+|     A      |     B     |     Result     |
+|:------------: | :---------------: | :-----: |
+| T | T | F |
+| F | F | F |
+| T | F  | T |
+| F | T  | T |
