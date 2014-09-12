@@ -49,12 +49,12 @@ We consider the body of the function g to be well typed and we give the followin
 ## Question 3
 For this part of the Lab we were asked to implement some basic operations: Absolute Value and XOR.
   
-  ######(A): Absolute Value
-  We created two cases using the ***match*** function
+######(A): Absolute Value
+We created two cases using the ***match*** function
   
-  ######(B): XOR
-  We created two cases using the ***match*** function. Since XOR accept ***boolean*** and return ***boolean***, we coded our algorithm with respect to the
-  following logic:
+######(B): XOR
+We created two cases using the ***match*** function. Since XOR accept ***boolean*** and return ***boolean***, we coded our algorithm with respect to the
+following logic:
   
 |     A      |     B     |     Result     |
 |:------------: | :---------------: | :-----: |
