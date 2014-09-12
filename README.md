@@ -1,7 +1,9 @@
  Lab 1
 ====
 
-### Group's partners: Camilla Lambrocco, Bruno Guovela
+### Group:
+- Camilla Lambrocco
+- Bruno Guovela
 
 In this Lab we are implementing some functions and an easy script to become familiar with the functional language SCALA
 
@@ -110,7 +112,7 @@ if the value was not found in the current ***Node*** we recursively called ***de
 
 ## Question 6
 
-The propose of this section was implementing a basic language interpreter performing basic operation with unary and binary operators. We were able to implement the function _**def eval(e: **Expr**): **Double**_ using ***match()*** and the *case object*.
+The propose of this section was implementing a basic language interpreter performing basic operation with unary and binary operators. We were able to implement the function _**def** eval(e: **Expr**): **Double**_ using ***match()*** and the *case object*.
 
 For  *case class* **Binary**:
 - ***Plus***
