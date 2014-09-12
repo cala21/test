@@ -83,6 +83,6 @@ We used Newton's Method to implement the *square root*. We wrote several functio
  3. _**def** sqrtErr(c: **Double**, x0: **Double**, n: **Int**): **Double**_
  
 	 This was the function that defined the maximum error allowed when calculating the square root of a number. We required a positive ***epsilon*** (maximum error allowed) and then we defined two cases that follows from the following question: is the error less then epsilon? 
-	 *yes, return the approximated result;
-	 *no, recursively call ***sqrtErr***.
+	 - yes, return the approximated result;
+	 - no, recursively call ***sqrtErr()***.
 	 
