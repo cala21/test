@@ -53,7 +53,7 @@ For this part of the Lab we were asked to implement some basic operations: Absol
 To implement _**def** abs_ we simply forced the returned value to be positive.
 
 ######(B): XOR
-We created two cases using the ***match*** function. Since XOR accept ***boolean*** and return ***boolean***, we coded our algorithm with respect to the
+We created two cases using the ***match*** function. Since XOR accepts ***boolean*** and returns ***boolean***, we coded our algorithm with respect to the
 following logic:
   
 |     A      |     B     |     Result     |
@@ -62,3 +62,12 @@ following logic:
 | F | F | F |
 | T | F  | T |
 | F | T  | T |
+
+## Question 4
+
+The main idea of this section was to become familiar with recursive calls in *SCALA*. 
+
+######(A): _**def** repeat(s :**String**, n :**Int**)_
+This function was easily implemented considering two cases:
+1. if *n = 0* (we do not repeat the string) 
+2. if *n != 0* we recursively call the function ***repeat*** *n-1* times
