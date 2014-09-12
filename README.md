@@ -26,19 +26,19 @@ Given the code we identify x in line 13t o be bound at line 1 (*val x=3*). This 
 
 We consider the body of the function g to be well typed and we give the following demonstration using the format required by the second part of the question:
 
-line 1 => (a,b): **Tuple** (**Int**,**Int**)  because
+*Line 2 =>* (a,b): **Tuple** (**Int**,**Int**)  because
  - 1: **Int**
   - (x,3) : **Tuple** (**Int**,**Int**)  because
   - x: **Int**
   - 3 : **Int**
   
-(b,1) : **Tuple** (**Tuple** (**Int**,**Int**) , **Int**) because
+*Line 3 =>* (b,1) : **Tuple** (**Tuple** (**Int**,**Int**) , **Int**) because
  - b : **Tuple** (**Int**,**Int**)  because
   - x :**Int**
   - 3 : **Int**
  - 1 : **Int**
 
-- (b, a+2) : **Tuple** (**Tuple** (**Int**,**Int**) , **Int**) because
+*Line 3 =>* (b, a+2) : **Tuple** (**Tuple** (**Int**,**Int**) , **Int**) because
  - b : **Tuple** (**Int**,**Int**) because
   - x : **Int**
   - 3 : **Int**
