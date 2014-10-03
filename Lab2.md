@@ -31,22 +31,22 @@ We then convert A ::= A&A|V. When tranformed it in judgment form it becomes:
 The grammar in the previous part is ambiguous becase we can write two different derivations for the same output. Letting the parse trees:<br>
 
          A 
-    /         \
-    A    &     A
-    |       /     \  
-    a       A  &   A
-    |       |
-    a       b 
+      /     \
+     A   &   A
+     |    /     \  
+     a    A  &  A
+     |    |
+     a    b 
 
 and <br>
 
             A
-        /        \
-        A    &     A
-     /     \       |
-    A   &   A      b
-    |       |
-    a       a
+         /     \
+        A   &   A
+      /   \     |
+     A  &  A    b
+     |     |
+     a     a
 
 ######(C)
 S ::= A|B|C<br> 
@@ -74,18 +74,20 @@ B ::= d|A
 
 The possible outputs of this grammar are:
 - ***abcd***, the parse tree is<br> 
---------------- S --------------- <br>
------- a --- S --- c --- B ------ <br> 
-..................|................|.......... <br>
------------- b --------- d ------
+ 
+                S 
+        a    S     c    B
+             |          |
+             b          d 
 
 - ***accc***, the parse tree is<br> 
---------------- S --------------- <br>
------- a --- S --- c --- B ------ <br> 
-..................|................|.......... <br>
------------- A --------- A ------ <br>
-..................|................|.......... <br>
------------- c --------- c ------ 
+
+                S 
+        a    S     c    B  
+             |          |
+             A          A 
+             |          |
+             c          c
 
 ## Question 2
 
