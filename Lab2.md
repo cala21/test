@@ -16,7 +16,7 @@ We consider V ::= a|b our domain. When tranformed in judgment form it becames:
 
 | **axiom1** |  **axiom2**|    
 |:-------: | :------: |
-|<img src="http://www.sciweavers.org/tex2img.php?eq%3DV%2520%255Cin%2520VObject%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0%22+align%3D%22center%22+border%3D%220%22+alt%3D%22V+%5Cin+VObject%22+width%3D%22107%22+height%3D%2219%22+%2F%3E> | %3Cimg%20src%3D%22http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3DV%2520%255Cin%2520VObject%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0%22%20align%3D%22center%22%20border%3D%220%22%20alt%3D%22V%20%5Cin%20VObject%22%20width%3D%22107%22%20height%3D%2219%22%20%2F%3E |
+|<img src="http://www.sciweavers.org/tex2img.php?eq=V%20%5Cin%20VObject&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V \in VObject" width="107" height="19" />| %3Cimg%20src%3D%22http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3DV%2520%255Cin%2520VObject%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0%22%20align%3D%22center%22%20border%3D%220%22%20alt%3D%22V%20%5Cin%20VObject%22%20width%3D%22107%22%20height%3D%2219%22%20%2F%3E |
 
 
 We then convert consider V ::= a|b our domain. When tranformed in judgment form it becames:
