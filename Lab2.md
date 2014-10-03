@@ -112,39 +112,39 @@ We notice that the two grammars generate the same pattern, however for the same 
 
 ######(B)
 
-_**scala> 1 - 3 << 1**_ <br>
-_**res5: Int = -4**_ <br>
+_**scala> 1 - 3 << 1 <br>
+res5: Int = -4**_ <br>
 
-_**scala> 1-3**_ <br>
-_**res8: Int = -2**_ <br>
-_**scala> -2 <<1**_ <br>
-_**res9: Int = -4**_  <br>
+_**scala> 1-3 <br>
+res8: Int = -2 <br>
+scala> -2 <<1 <br>
+res9: Int = -4**_  <br>
 
 In this case we see that "-" has higher precedence then "<<". If we introduce parentheses to give priority to "<<" then we have:<br>
 
-_**scala> 1- (3<<1)**_ <br>
-_**res11: Int = -5**_  <br>
+_**scala> 1- (3<<1) <br>
+res11: Int = -5**_  <br>
 
-_**scala> 3 << 1**_ <br>
-_**res12: Int = 6**_ <br>
-_**scala> 1-6**_ <br>
-_**res13: Int = -5**_ <br>
+_**scala> 3 << 1 <br>
+res12: Int = 6 <br>
+scala> 1-6 <br>
+res13: Int = -5**_ <br>
 
 We now notice that the parentheses are forcing the higer priority to "<<" letting to a different output with resect to the case in which we didn't introduce them.<br>
 For safety we check that this is not just the case of left associativity:<br>
 
-_**scala> 1 << 4-3**_  <br>
-_**res19: Int = 2**_ <br>
+_**scala> 1 << 4-3  <br>
+res19: Int = 2**_ <br>
 
-_**scala> 4-3**_ <br>
-_**res20: Int = 1**_ <br>
-_**scala> 1 << 1**_ <br>
-_**res21: Int = 2**_ <br>
+_**scala> 4-3 <br>
+res20: Int = 1 <br>
+scala> 1 << 1 <br>
+res21: Int = 2**_ <br>
 
 Whereas when introducing parentheses we have:<br>
 
-_**scala> (1 << 4) - 3**_ <br>
-_**res23: Int = 13**_ <br>
+_**scala> (1 << 4) - 3<br>
+res23: Int = 13**_ <br>
 
 _**scala> (1 << 4) <br>
 res24: Int = 16 <br>
