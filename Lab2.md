@@ -13,7 +13,7 @@ In this Lab we are implementing an interpreter and a javascript to become famili
 We consider V ::= a|b our domain. When tranformed in judgment form it becames:
 |          |          |    
 |:-------: | :------: |
-|a $\in$ VObject|b $\in$ VObject|
+|a \\(in\\) VObject|b \\(in\\)  VObject|
 
 ######(B)
 Given the code we identify ***x*** in line 3 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 3 is allocated in the scope of the function f.
