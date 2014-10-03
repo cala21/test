@@ -83,10 +83,30 @@ esuffix ::= operator operand esuffix | ε
 ------------------------------------------------ e operator operand  <br>
 .....................................................................| <br>
 --------------------------------- e operator operand ------ <br> 
-.................................................| <br>
+................................................| <br>
 ------------------ e operator operand ------ <br> 
 ...........................| <br>
 --- e operator operand ------ <br> 
+......|
+operand
+
+This produce the output:<br>
+_**operand operator operand operator operand operator operand operator operand**_
+
+
+######2
+operand esuffix<br>
+...........................| <br>
+--------- operator operand esuffix ------ <br> 
+................................................| <br>
+---------------------------- operator operand esuffix ------ <br> 
+......................................................................| <br>
+----------------------------------------------- operator operand esuffix ------ <br> 
+...................................................................................................|
+------------------------------------------------------------------ ε ------ <br> 
+
+This produce the output:<br>
+_**operand operator operand operator operand operator operand **_
 
 ######(B)
 
