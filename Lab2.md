@@ -44,9 +44,9 @@ B ::= aB|a
 
 The possible outputs of this grammar are:
 - baab, the derivation is<br> 
-... S -> AaBb -> baBb -> baab
+>> S -> AaBb -> baBb -> baab
 - bbaab
-... S -> AaBb -> AbaBb -> bbaBb -> bbaab
+>> S -> AaBb -> AbaBb -> bbaBb -> bbaab
 
 ######(E)
 S ::= aScB|A|b<br> 
