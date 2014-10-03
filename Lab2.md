@@ -148,8 +148,9 @@ res23: Int = 13<br>
 
 scala> (1 << 4) <br>
 res24: Int = 16 <br>
-scala> 16 -3< br>
+scala> 16 -3 <br>
 res25: Int = 13 <br>
 
 We notice that the parentheses force the priority once again to "<<" letting to a different output with respect to the case where we didn't use them. This tested the precedence of the operators proving that "-" has higher priority then "<<".
 
+######(C)
