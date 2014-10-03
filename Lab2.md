@@ -33,7 +33,7 @@ The grammar in the previous part is ambiguous becase we can write two different 
          A 
       /     \
      A   &   A
-     |    /     \  
+     |     /   \  
      a    A  &  A
      |    |
      a    b 
@@ -102,30 +102,32 @@ esuffix ::= operator operand esuffix | ε
 - Letting the parse trees:<br>
 
 ######1
------------------------------------------------- e operator operand  <br>
-.....................................................................| <br>
---------------------------------- e operator operand ------ <br> 
-................................................| <br>
------------------- e operator operand ------ <br> 
-...........................| <br>
---- e operator operand ------ <br> 
-......|
-operand
+
+                                                                     e operator operand  
+                                                                     | 
+                                                     e operator operand
+                                                     |
+                                     e operator operand  
+                                     | 
+                     e operator operand 
+                     |
+                operand
 
 This produces the output:<br>
 _**operand operator operand operator operand operator operand operator operand**_
 
 
 ######2
-operand esuffix<br>
-...................| <br>
---------- operator operand esuffix <br> 
-...............................................| <br>
----------------------------- operator operand esuffix <br> 
-..........................................................................| <br>
------------------------------------------------ operator operand esuffix<br> 
-....................................................................................................|<br>
------------------------------------------------------------------------ ε <br> 
+
+    operand esuffix
+               | 
+            operator operand esuffix 
+                                | 
+                             operator operand esuffix 
+                                                 |
+                                              operator operand esuffix
+                                                                  |
+                                                                  ε  
 
 This produces the output:<br>
 _**operand operator operand operator operand operator operand**_ <br>
