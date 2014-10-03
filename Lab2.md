@@ -23,8 +23,9 @@ We then convert A ::= A&A|V. When tranformed it judgment form it becames:
 
 | **Rule1** |  **Rule2**|    
 |:-------: | :------: |
-|A1} in AObject, A_{2} in AObject | V in VObject |
-|A<1> & A<sub>s2</sub> in AObject | V in AObject |
+|A<sub>1</sub>in AObject, A<sub>2</sub> in AObject | V in VObject |
+--------------------------------------------------------------------
+|A<sub>1</sub> & A<sub>2</sub> in AObject | V in AObject |
 
 ######(B)
 Given the code we identify ***x*** in line 3 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 3 is allocated in the scope of the function f.
