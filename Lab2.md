@@ -10,20 +10,21 @@ In this Lab we are implementing an interpreter and a javascript to become famili
 ## Question 1 
 
 ######(A)
-We consider V ::= a|b our domain. When tranformed in judgment form it becames:
+We consider V ::= a|b our domain. When tranformed it in judgment form it becames:
 
 
 
 | **axiom1** |  **axiom2**|    
 |:-------: | :------: |
-|a in VObject |
+|a in VObject | b in VObject |
 
 
-We then convert consider V ::= a|b our domain. When tranformed in judgment form it becames:
+We then convert A ::= A&A|V. When tranformed it judgment form it becames:
 
-
-|<img src="http://www.sciweavers.org/tex2img.php?eq=V%20%5Cin%20VObject&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V \in VObject" width="107" height="19" />| <img src="http://www.sciweavers.org/tex2img.php?eq=%24A_1%20%5Cin%20AObject%24%2C%20%24A_2%20%5Cin%20AObject%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$A_1 \in AObject$, $A_2 \in AObject$" width="233" height="19" /> |
-| <img src="http://www.sciweavers.org/tex2img.php?eq=V%20%5Cin%20AObject%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V \in AObject$" width="106" height="19" /> | <img src="http://www.sciweavers.org/tex2img.php?eq=%24A_1%5C%26%20A_2%20%5Cin%20AObject%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$A_1\& A_2 \in AObject$" width="147" height="19" /> |
+| **Rule1** |  **Rule2**|    
+|:-------: | :------: |
+|A_{1} in AObject, A_{2} in AObject | V in VObject |
+|A_{1} & A_{2} in AObject | V in AObject |
 
 ######(B)
 Given the code we identify ***x*** in line 3 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 3 is allocated in the scope of the function f.
