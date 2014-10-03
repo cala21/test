@@ -45,8 +45,8 @@ B ::= aB|a
 The possible outputs of this grammar are:
 - baab, the derivation is<br> 
 >> S -> AaBb -> baBb -> baab
-- bbaab
->> S -> AaBb -> AbaBb -> bbaBb -> bbaab
+- bbaab<br> 
+ S -> AaBb -> AbaBb -> bbaBb -> bbaab
 
 ######(E)
 S ::= aScB|A|b<br> 
@@ -55,7 +55,7 @@ B ::= d|A
 
 The possible outputs of this grammar are:
 - abcd, the parse tree is<br> 
->>>>>>>>> S<br> 
+->S<- <br> 
 >>> a >>> S >>> c >>> B<br> 
 ... ... b ... ... ... d
 
