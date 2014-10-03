@@ -20,6 +20,9 @@ We consider V ::= a|b our domain. When tranformed in judgment form it becames:
 
 We then convert consider V ::= a|b our domain. When tranformed in judgment form it becames:
 
+
+![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29%0D%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+
 |<img src="http://www.sciweavers.org/tex2img.php?eq=V%20%5Cin%20VObject&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V \in VObject" width="107" height="19" />| <img src="http://www.sciweavers.org/tex2img.php?eq=%24A_1%20%5Cin%20AObject%24%2C%20%24A_2%20%5Cin%20AObject%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$A_1 \in AObject$, $A_2 \in AObject$" width="233" height="19" /> |
 | <img src="http://www.sciweavers.org/tex2img.php?eq=V%20%5Cin%20AObject%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V \in AObject$" width="106" height="19" /> | <img src="http://www.sciweavers.org/tex2img.php?eq=%24A_1%5C%26%20A_2%20%5Cin%20AObject%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$A_1\& A_2 \in AObject$" width="147" height="19" /> |
 
