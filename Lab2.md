@@ -112,7 +112,7 @@ _**operand operator operand operator operand operator operand**_ <br>
 We notice that the two grammars generate the same pattern, however for the same number of recursions the second grammar produces one _**operator operand**_ less.
 
 ######(B)
-We test the higer priority of "-" with the following command code:<br>
+We test the higer priority of "-" with the following command lines:<br>
 
 _**scala> 1 - 3 << 1 <br>
 res5: Int = -4**_ <br>
