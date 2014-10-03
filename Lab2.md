@@ -20,7 +20,7 @@ We consider V ::= a|b our domain. When tranformed it in judgment form it becomes
 |a in VObject | b in VObject |
 
 
-We then convert A ::= A&A|V. When tranformed it in judgment form it bec0mes:
+We then convert A ::= A&A|V. When tranformed it in judgment form it becomes:
 
 |      | **Rule1** |  **Rule2**|    
 | :--: |:-------: | :------: |
