@@ -16,10 +16,11 @@ We consider V ::= a|b our domain. When tranformed it in judgment form it becames
 
 | **axiom1** |  **axiom2**|    
 |:-------: | :------: |
+|  |  |
 |a in VObject | b in VObject |
 
 
-We then convert A ::= A&A|V. When tranformed it judgment form it becames:
+We then convert A ::= A&A|V. When tranformed it in judgment form it becames:
 
 |      | **Rule1** |  **Rule2**|    
 | :--: |:-------: | :------: |
@@ -27,13 +28,14 @@ We then convert A ::= A&A|V. When tranformed it judgment form it becames:
 |Conclusion |A<sub>1</sub> & A<sub>2</sub> in AObject | V in AObject |
 
 ######(B)
-Given the code we identify ***x*** in line 3 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 3 is allocated in the scope of the function f.
 
-Given the code we identify ***x*** in line 6 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 6 is allocated in the scope of the function ***f()***. 
+######(C)
+S ::= A|B|C 
+A ::= aA|a 
+B ::= bB|ε
+C ::= cC|c
 
-Given the code we identify ***x*** in line 10 to be bound at line 2 (_**f**(x: Int)_) as well. This happens to be because ***x*** at line 10 is in the scope of the function f and it is outside the scope that goes from line 7 to line 10.
-
-Given the code we identify ***x*** in line 13t o be bound at line 1 (_**val** x=3_). This happens to be because ***x*** at line 13 (for both ***x*** and ***f(x)***) is allocated outside the function ***f()***. 
+From the following grammar we can see that the syntax allows either only ***a***s or only ***b***s or only ***c***s. The difference between the repetition of the ***a***s (or ***c***s) and the repetition of ***b***s is in the number of repetition of the same character. Indeed, letting **N** be the number of repetitions, if we repeat ***A*** (or ***C***) and ***B*** **N** times then we would have one more character when repeating ***a***s (or ***c***s) then when repeating ***b***s. This is due to the ε in the definition of ***B***.
 
 ## Question 2
 
