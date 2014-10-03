@@ -55,9 +55,9 @@ B ::= d|A
 
 The possible outputs of this grammar are:
 - abcd, the parse tree is<br> 
-<centerline>  S <br>
-<center> a >>> S >>> c >>> B<br> 
-... ... b ... ... ... d
+............... S ............<br>
+...... a ... S ... c ... B<br> 
+............ b ......... d
 
 - bbaab
 ... S -> AaBb -> AbaBb -> bbaBb -> bbaab
