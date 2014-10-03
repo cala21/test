@@ -12,11 +12,15 @@ In this Lab we are implementing an interpreter and a javascript to become famili
 ######(A)
 We consider V ::= a|b our domain. When tranformed in judgment form it becames:
 
-\\[pi\\]
+-m \\[pi\\]
 
 |          |          |    
 |:-------: | :------: |
-| a | b |
+| <img src="http://www.sciweavers.org/tex2img.php?eq=a%20%5Cin%20VObject&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="a \in VObject" width="106" height="19" />| b |
+
+```tex
+\sum_{x=0}^n f(x)
+```
 
 
 ######(B)
