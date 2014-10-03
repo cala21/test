@@ -30,23 +30,23 @@ We then convert A ::= A&A|V. When tranformed it in judgment form it becomes:
 ######(B)
 The grammar in the previous part is ambiguous becase we can write two different derivations for the same output. Letting the parse trees:<br>
 
-        A <br>
-    /    |    \
+         A 
+    /         \
     A    &     A
-    |       /  |  \  
+    |       /     \  
     a       A  &   A
     |       |
     a       b 
 
 and <br>
 
-     A
-/    |    \
-A    &    A
-/   |   \        |
-A  &   A     b
-|         |
-a        a
+            A
+        /        \
+        A    &     A
+     /     \       |
+    A   &   A      b
+    |       |
+    a       a
 
 ######(C)
 S ::= A|B|C<br> 
