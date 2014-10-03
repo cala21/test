@@ -71,9 +71,9 @@ The possible outputs of this grammar are:
 ## Question 2
 
 ######(A)
-e ::= operand | e operator operand <br>
+1. e ::= operand | e operator operand <br>
 
-e ::= operand esuffix<br>
+2. e ::= operand esuffix<br>
 esuffix ::= operator operand esuffix | ε
 
 - The two grammars allow us to create the sequence "operand operator operand" thanks to the "premise" (_**e operator operand**_ for the first one and _**operand esuffix**_ for the second syntax) that call recursively the "conclusion" (_**e**_ for the first syntax, _**esuffix**_ fo the second one).
