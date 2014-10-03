@@ -35,7 +35,7 @@ A ::= aA|a
 B ::= bB|ε
 C ::= cC|c
 
-From the following grammar we can see that the syntax allows either only ***a***s or only ***b***s or only ***c***s. The difference between the repetition of the ***a***s (or ***c***s) and the repetition of ***b***s is in the number of repetition of the same character. Indeed, letting **N** be the number of repetitions, if we repeat ***A*** (or ***C***) and _**B**_ **N** times then we would have one more character when repeating ***a***s (or ***c***s) then when repeating ***b***s. This is due to the ε in the definition of ***B***.
+From the following grammar we can see that the syntax allows either only _**a**_s or only _**b**_s or only _**c**_s. The difference between the repetition of the _**a**_s (or _**c**_s) and the repetition of _**b**_s is in the number of repetition of the same character. Indeed, letting **N** be the number of repetitions, if we repeat _**A**_ (or _**C**_) and _**B**_ **N** times then we would have one more character when repeating _**a**_s (or ***c***s) then when repeating _**b**_s. This is due to the ε in the definition of _**B**_.
 
 ## Question 2
 
