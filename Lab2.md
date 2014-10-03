@@ -24,7 +24,7 @@ We then convert A ::= A&A|V. When tranformed it in judgment form it becames:
 
 |      | **Rule1** |  **Rule2**|    
 | :--: |:-------: | :------: |
-| Premisis |A<sub>1</sub>in AObject, A<sub>2</sub> in AObject | V in VObject |
+| Premise |A<sub>1</sub>in AObject, A<sub>2</sub> in AObject | V in VObject |
 |Conclusion |A<sub>1</sub> & A<sub>2</sub> in AObject | V in AObject |
 
 ######(B)
