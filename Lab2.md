@@ -10,7 +10,7 @@ In this Lab we are implementing an interpreter and a javascript to become famili
 ## Question 1 
 
 ######(A)
-We consider V ::= a|b our domain. When tranformed it in judgment form it becames:
+We consider V ::= a|b our domain. When tranformed it in judgment form it becomes:
 
 
 
@@ -20,7 +20,7 @@ We consider V ::= a|b our domain. When tranformed it in judgment form it becames
 |a in VObject | b in VObject |
 
 
-We then convert A ::= A&A|V. When tranformed it in judgment form it becames:
+We then convert A ::= A&A|V. When tranformed it in judgment form it bec0mes:
 
 |      | **Rule1** |  **Rule2**|    
 | :--: |:-------: | :------: |
