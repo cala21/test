@@ -17,6 +17,8 @@ a \\[\in\\] VObject b \\[{\pi}\\]  VObject
 
 \\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\]
 
+$${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a}$$
+
 ######(B)
 Given the code we identify ***x*** in line 3 to be bound at line 2 (_**f**(x: Int)_). This happens to be because ***x*** at line 3 is allocated in the scope of the function f.
 
