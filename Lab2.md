@@ -111,6 +111,7 @@ _**operand operator operand operator operand operator operand**_ <br>
 We notice that the two grammars generate the same pattern, however for the same number of recursions the second grammar produces one _**operator operand**_ less.
 
 ######(B)
+We test the higer priority of "-" with the following command code:<br>
 
 _**scala> 1 - 3 << 1 <br>
 res5: Int = -4**_ <br>
@@ -154,6 +155,7 @@ res25: Int = 13**_ <br>
 We notice that the parentheses force the priority once again to "<<" letting to a different output with respect to the case where we didn't use them. This tested the precedence of the operators proving that "-" has higher priority then "<<".
 
 ######(C)
+We create a grammar that satisfies unambiguously the requirements to write a float that can be rised to an exponent.
 
 _**< Float >**_ ::= < Integer > . < Decimal > <br>
 _**< Integer >**_ ::= < Value > | < NegVal > <br>
