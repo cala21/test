@@ -154,3 +154,14 @@ res25: Int = 13**_ <br>
 We notice that the parentheses force the priority once again to "<<" letting to a different output with respect to the case where we didn't use them. This tested the precedence of the operators proving that "-" has higher priority then "<<".
 
 ######(C)
+
+_**< Float >**_ ::= < I > . < D > <br>
+_**< I >**_ ::= < Value > | < NegVal > <br>
+_**< Positive >**_ ::= 0 < Positive > | < Value > | ε <br>
+_**< Value >**_ ::= 1 < Positive > | 2 < Positive > | ....... | 9 < Positive > <br>
+_**< NegVal >**_ ::= - < Value > <br>
+_**< Zero >**_ ::= 0 < Zero > | 0 <br>
+_**< DwithExp >**_ ::= < Positive > < Value > E < I > <br>
+_**< D >**_ ::= < Zero > | < DwithExp >
+
+
