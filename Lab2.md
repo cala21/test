@@ -91,7 +91,7 @@ esuffix ::= operator operand esuffix | ε
 ......|
 operand
 
-This produce the output:<br>
+This produces the output:<br>
 _**operand operator operand operator operand operator operand operator operand**_
 
 
@@ -106,7 +106,7 @@ operand esuffix<br>
 ....................................................................................................|<br>
 ----------------------------------------------------------------------- ε <br> 
 
-This produce the output:<br>
+This produces the output:<br>
 _**operand operator operand operator operand operator operand**_ <br>
 
 We notice that the two grammars generate the same pattern, however for the same number of recursions the second grammar produces one _**operator operand**_ less.
