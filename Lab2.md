@@ -56,7 +56,7 @@ A ::= aA|a<br>
 B ::= bB|ε<br> 
 C ::= cC|c
 
-From this grammar we can see that the syntax allows either only _**a's**_ or only _**b's**_ or only _**c's**_. The difference between the repetition of the _**a**_ (or _**c**_) and the repetition of _**b**_ is in the number of repetition of the same character. Indeed, letting _*N*_ be the number of repetitions, if we repeat _**A**_ (or _**C**_) and _**B**_ _*N*_ times then we would have one more character when repeating _**a**_ (or _**c**_) then when repeating _**b**_. This is due to the ε in the definition of _**B**_.
+From this grammar we can see that the syntax allows either only _**a's**_ or only _**b's**_ or only _**c's**_. The difference between the repetition of the _**a's**_ (or _**c's**_) and the repetition of _**b's**_ is in the number of repetition of the same character. Indeed, letting _*N*_ be the number of repetitions, if we repeat _**A**_ (or _**C**_) and _**B**_ _*N*_ times then we would have one more character when repeating _**a's**_ (or _**c's**_) then when repeating _**b's**_. This is due to the ε in the definition of _**B**_.
 
 ######(D)
 S ::= AaBb <br> 
