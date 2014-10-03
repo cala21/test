@@ -112,44 +112,44 @@ We notice that the two grammars generate the same pattern, however for the same 
 
 ######(B)
 
-scala> 1 - 3 << 1<br>
+_**scala> 1 - 3 << 1<br>
 res5: Int = -4<br>
 
 scala> 1-3<br>
 res8: Int = -2<br>
 scala> -2 <<1<br>
-res9: Int = -4<br>
+res9: Int = -4<br>**_
 
 In this case we see that "-" has higher precedence then "<<". If we introduce parentheses to give priority to "<<" then we have:<br>
 
-scala> 1- (3<<1) <br>
+_**scala> 1- (3<<1) <br>
 res11: Int = -5 <br>
 
 scala> 3 << 1 <br>
 res12: Int = 6 <br>
 scala> 1-6 <br>
-res13: Int = -5 <br>
+res13: Int = -5 <br>**_
 
 We now notice that the parentheses are forcing the higer priority to "<<" letting to a different output with resect to the case in which we didn't introduce them.<br>
 For safety we check that this is not just the case of left associativity:<br>
 
-scala> 1 << 4-3 <br>
+_**scala> 1 << 4-3 <br>
 res19: Int = 2 <br>
 
 scala> 4-3 <br>
 res20: Int = 1 <br>
 scala> 1 << 1 <br>
-res21: Int = 2 <br>
+res21: Int = 2 <br>**_
 
 Whereas when introducing parentheses we have:<br>
 
-scala> (1 << 4) - 3 <br>
+_**scala> (1 << 4) - 3 <br>
 res23: Int = 13<br>
 
 scala> (1 << 4) <br>
 res24: Int = 16 <br>
 scala> 16 -3 <br>
-res25: Int = 13 <br>
+res25: Int = 13 <br>**_
 
 We notice that the parentheses force the priority once again to "<<" letting to a different output with respect to the case where we didn't use them. This tested the precedence of the operators proving that "-" has higher priority then "<<".
 
