@@ -15,7 +15,7 @@ We consider V ::= a|b our domain. When tranformed in judgment form it becames:
 
 | **axiom1** |  **axiom2**|    
 |:-------: | :------: |
-|<img src="http://bit.ly/1uhPdRB" align="center" border="0" alt="V\in VObject" width="107" height="19" />| <img src="http://www.sciweavers.org/tex2img.php?eq=b%20%5Cin%20VObject&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="b \in VObject" width="106" height="19" /> |
+|<img src="http://bit.ly/1uhPlR2" align="center" border="0" alt="V \in VObject" width="107" height="19" /> | |
 
 
 We then convert consider V ::= a|b our domain. When tranformed in judgment form it becames:
