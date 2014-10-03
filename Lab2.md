@@ -30,12 +30,15 @@ We then convert A ::= A&A|V. When tranformed it in judgment form it becames:
 ######(B)
 
 ######(C)
-S ::= A|B|C 
+S ::= A|B|C
+
 A ::= aA|a 
+
 B ::= bB|ε
+
 C ::= cC|c
 
-From the following grammar we can see that the syntax allows either only _**a**_ or only _**b**_ or only _**c**_. The difference between the repetition of the _**a**_ (or _**c**_) and the repetition of _**b**_ is in the number of repetition of the same character. Indeed, letting _*N*_ be the number of repetitions, if we repeat _**A**_ (or _**C**_) and _**B**_ _*N*_ times then we would have one more character when repeating _**a**_ (or _**c**_s) then when repeating _**b**_. This is due to the ε in the definition of _**B**_.
+From the following grammar we can see that the syntax allows either only _**a**_ or only _**b**_ or only _**c**_. The difference between the repetition of the _**a**_ (or _**c**_) and the repetition of _**b**_ is in the number of repetition of the same character. Indeed, letting _*N*_ be the number of repetitions, if we repeat _**A**_ (or _**C**_) and _**B**_ _*N*_ times then we would have one more character when repeating _**a**_ (or _**c**_) then when repeating _**b**_. This is due to the ε in the definition of _**B**_.
 
 ## Question 2
 
