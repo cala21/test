@@ -77,7 +77,8 @@ The possible outputs of this grammar are:
 esuffix ::= operator operand esuffix | ε
 
 - The two grammars allow us to create the sequence "operand operator operand" thanks to the "premise" (_**e operator operand**_ for the first one and _**operand esuffix**_ for the second syntax) that call recursively the "conclusion" (_**e**_ for the first syntax, _**esuffix**_ fo the second one).
-- Yes the two grammars generate the same expression, letting the parse trees:<br>
+
+- Letting the parse trees:<br>
 
 ######1
 ------------------------------------------------ e operator operand  <br>
@@ -111,5 +112,7 @@ We notice that the two grammars generate the same pattern, however for the same 
 
 ######(B)
 
-'''Scala
-2 << 3 - 1 = 
+'''scala
+scala> 1 - 3 << 1
+res5: Int = -4
+'''
