@@ -155,13 +155,13 @@ We notice that the parentheses force the priority once again to "<<" letting to 
 
 ######(C)
 
-_**< Float >**_ ::= < I > . < D > <br>
-_**< I >**_ ::= < Value > | < NegVal > <br>
+_**< Float >**_ ::= < Integer > . < Decimal > <br>
+_**< Integer >**_ ::= < Value > | < NegVal > <br>
 _**< Positive >**_ ::= 0 < Positive > | < Value > | ε <br>
 _**< Value >**_ ::= 1 < Positive > | 2 < Positive > | ....... | 9 < Positive > <br>
 _**< NegVal >**_ ::= - < Value > <br>
 _**< Zero >**_ ::= 0 < Zero > | 0 <br>
-_**< DwithExp >**_ ::= < Positive > < Value > E < I > <br>
-_**< D >**_ ::= < Zero > | < DwithExp >
+_**< DecimalWithExp >**_ ::= < Positive > < Value > E < Integer > <br>
+_**< Decimal >**_ ::= < Zero > | < DecimalWithExp >
 
 
