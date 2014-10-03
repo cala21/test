@@ -86,6 +86,7 @@ The possible outputs of this grammar are:
 - ***accc***, the parse tree is<br> 
 
                 S 
+          /   /   \   \
         a    S     c    B  
              |          |
              A          A 
