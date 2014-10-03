@@ -12,6 +12,9 @@ In this Lab we are implementing an interpreter and a javascript to become famili
 ######(A)
 We consider V ::= a|b our domain. When tranformed in judgment form it becames:
 
+$$
+\pi
+$$
 
 | **axiom1** |  **axiom2**|    
 |:-------: | :------: |
