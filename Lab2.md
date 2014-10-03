@@ -117,7 +117,7 @@ res5: Int = -4**_ <br>
 
 _**scala> 1-3 <br>
 res8: Int = -2 <br>
-scala> -2 <<1 <br>
+scala> -2 << 1 <br>
 res9: Int = -4**_  <br>
 
 In this case we see that "-" has higher precedence then "<<". If we introduce parentheses to give priority to "<<" then we have:<br>
